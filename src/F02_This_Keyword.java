@@ -45,7 +45,7 @@ class Student4 {
     int age;
 
     Student4 () {
-        this("Unknown", 0);
+        this("Unknown", 0); // The call to this() must be the first statement inside the constructor.
     }
 
     Student4 (String name, int age) {
