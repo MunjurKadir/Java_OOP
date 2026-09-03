@@ -1,6 +1,6 @@
 package p03_Modifiers;
 
-public class Abstract {
+public class F02_Abstract {
     public static void main (String[] args){
         Dog d = new Dog();
         Cat c = new Cat();
