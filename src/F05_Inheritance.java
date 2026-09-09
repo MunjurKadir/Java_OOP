@@ -15,7 +15,7 @@ class Animal {
         System.out.println("Animal sounds");
     }
 }
-class Dog extends Animal{
+class Dog extends Animal{  // extends --> extends is used to inherit and reuse members of a parent class.
     void bark (){
         System.out.println("Dog barks");
     }
