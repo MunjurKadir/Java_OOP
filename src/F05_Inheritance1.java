@@ -1,4 +1,4 @@
-public class F05_Inheritance {
+public class F05_Inheritance1 {
     public static void main (String[] args){
         Dog d = new Dog();
         d.sound();
