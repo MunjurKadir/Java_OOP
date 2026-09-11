@@ -1,6 +1,6 @@
 public class F05_Inheritance {
     public static void main (String[] args){
-        Dog d = new Dog();
+        dog d = new dog();
         d.sound();
         d.bark();
 
@@ -15,7 +15,7 @@ class Animal {
         System.out.println("Animal sounds");
     }
 }
-class Dog extends Animal{  // extends --> extends is used to inherit and reuse members of a parent class.
+class dog extends Animal{  // extends --> extends is used to inherit and reuse members of a parent class.
     void bark (){
         System.out.println("Dog barks");
     }
