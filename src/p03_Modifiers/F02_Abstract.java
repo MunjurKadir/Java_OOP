@@ -1,5 +1,6 @@
 package p03_Modifiers;
 
+// Abstract class is a way to achieve abstraction in Java.
 public class F02_Abstract {
     public static void main (String[] args){
         Dog d = new Dog();
