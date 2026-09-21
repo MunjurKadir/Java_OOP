@@ -1,10 +1,9 @@
 package p11_exceptions_handling;
 
 import java.util.Scanner;
-
+// Normal Way
 public class F04_Try_with_Resources {
     public static void main(String[] args) {
-        // Normal Way
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your name ");
         String name = sc.nextLine();
@@ -15,7 +14,6 @@ public class F04_Try_with_Resources {
         sc.close(); // manually close
     }
 }
-
 
 // Try With Resources
 class TrywithResources{
@@ -30,4 +28,7 @@ class TrywithResources{
         }
     }
 }
+// Rule of thumb:
+// Whenever you work with files, streams, or database connections,
+// use try-with-resources to make sure they are closed properly.
 
