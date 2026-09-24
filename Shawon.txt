@@ -1,2 +1,8 @@
 Hello!!
-I'm learning Java.
+I'm learning Java.Hello World!
+Hello World!
+Hello World!
+I Love Java
+Hello World!
+I Love JavaI am Learning Java
+Java is fun.
