@@ -20,3 +20,11 @@ class Dog extends Animal{ // Subclass (inherit from Animal)
         System.out.println("Dog barks");
     }
 }
+
+/*
+An abstract class must be declared with an abstract keyword.
+It can have abstract and non-abstract methods.
+The class has to be declared as abstract if it contains at least one abstract method.
+It can have constructors, static methods and final methods.
+It can have any type of variables (Static, non-static, final, non-final etc)
+ */
